@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ecowitt Public Share",
+        "description": "Enter the authorize code from your Ecowitt share URL.\n\nExample: if your share URL is `https://www.ecowitt.net/home/share?authorize=D2H86Q`, enter `D2H86Q`.",
+        "data": {
+          "authorize": "Authorize Code"
+        }
+      }
+    },
+    "error": {
+      "invalid_authorize": "The authorize code was not recognised. Please check it and try again.",
+      "cannot_connect": "Could not connect to Ecowitt. Check your network connection."
+    },
+    "abort": {
+      "already_configured": "This weather station is already configured."
+    }
+  }
+}
